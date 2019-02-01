@@ -133,7 +133,7 @@ article {
 img {
 
     float: left;
-    margin: 25px;
+    margin: 15px;
     padding: 10px;
     background-color: rgb(6, 48, 32);
     border-radius: 5px;
@@ -144,17 +144,10 @@ img {
 p {
 
     float: left;
+    font-size: 22px;
     font-style: oblique;
     font-weight: 500;
     
-}
-
-.grid2 {
-
-    display: inline-block;
-    
-    
-
 }
 
 .grid2:hover {
@@ -168,6 +161,17 @@ section {
     display: flex;
     justify-content: space-around;
     margin: 0px 30px 30px 30px;
+
+}
+
+#grid {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 40px;
+    
+    
 
 }
 
