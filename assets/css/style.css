@@ -2,7 +2,7 @@
 
 body {
 
-    font-size: 20px;
+    font-size: 1.25rem;
     font-family: 'Black Han Sans', arial, sans-serif;
     background-color: antiquewhite;
     padding: 0;
@@ -226,7 +226,7 @@ aside {
 
   float: right;
   margin-right: 25px;
-  width: 50%;
+  width: 100px;
   padding: 20px;
   margin: 10px;
 
@@ -242,19 +242,106 @@ footer {
 
 }
 
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {...} 
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {...} 
 
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {...} 
+@media (max-width: 640px) {
 
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {...} 
+    body {
+        
+        font-size: 3rem;
+        overflow: scroll;
 
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {...}
+    }
 
     
+   
+
+   #nametab {
+
+        margin: 0;
+   
+}
+
+    #navbar {
+
+        position: static;
+        font-size: .25rem;
+        width: 100%;
+        margin: 0;
+    
+}
+
+  
+
+    img {
+
+        height: 69%;
+        Width: 69%;
+
+    }
+
+    #grid {
+
+      margin: 10%;
+      
+      
+
+
+    }
+
+    .grid2 {
+
+        font-size: 1rem;
+        margin: 0;
+    }
+
+    section {
+
+        overflow: scroll;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0%;
+      
+
+    }
+
+    form {
+
+        height: 50%;
+        width: 100%;
+        font-size: 1rem;
+        margin: 2%;
+    }
+
+    }
+
+   #thinker {
+
+             
+        margin: 2%;
+        height: 150%;
+        Width: 150%;
+        
+
+   } 
+
+   #submit {
+
+    margin: 0%;
+    align-self: auto;
+   }
+
+   .switch:hover {
+
+    color: darkgreen;
+
+   }
+
+   .switch:hover {
+
+    color: darkgreen;
+   
+   
+
+
+}
